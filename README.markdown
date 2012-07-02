@@ -1,16 +1,10 @@
-# holman does dotfiles
+# mbleigh does dotfiles
 
 ## dotfiles
 
-Your dotfiles are how you personalize your system. These are mine. The very
-prejudiced mix: OS X, zsh, Ruby, Rails, git, homebrew, rbenv, vim. If you
-match up along most of those lines, you may dig my dotfiles.
-
-I was a little tired of having long alias files and everything strewn about
-(which is extremely common on other dotfiles projects, too). That led to this
-project being much more topic-centric. I realized I could split a lot of things
-up into the main areas I used (Ruby, git, system libraries, and so on), so I
-structured the project accordingly.
+These are my heavily specific dotfiles based almost entirely on [holman's](https://github.com/holman/dotfiles).
+The major modifications have been to remove OS X specific code and generally
+make it more Linux (specifically, Ubuntu) friendly.
 
 If you're interested in the philosophy behind why projects like these are
 awesome, you might want to [read my post on the
