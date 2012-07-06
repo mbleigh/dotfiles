@@ -4,4 +4,5 @@
 if $(which tmux &>/dev/null)
 then
   [[ $TERM != "screen" ]] && exec tmux
+  compctl -g '~/.teamocil/*(:t:r)' teamocil
 fi
